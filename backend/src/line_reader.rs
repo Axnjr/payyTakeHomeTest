@@ -48,6 +48,7 @@ mod tests {
 
     #[test]
     fn test_lines() {
+        
         let reader = std::io::BufReader::new(&b"hello\nworld"[..]);
         
         let mut lines = lines(reader);
