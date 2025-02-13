@@ -26,10 +26,10 @@ const emptyCounterObj: CounterType = {
     toggleAutoIncrement: function (): void {
         throw new Error("Function not implemented.");
     },
-    setIncrementBy: function (value: SetStateAction<number>): void {
+    setIncrementBy: function (_value: SetStateAction<number>): void {
         throw new Error("Function not implemented.");
     },
-    setIntervalTime: function (value: SetStateAction<number>): void {
+    setIntervalTime: function (_value: SetStateAction<number>): void {
         throw new Error("Function not implemented.");
     }
 }
